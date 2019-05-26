@@ -2,6 +2,7 @@ package com.example.githubstudy;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,5 +12,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void newFunction(){}
+    public void newFunction(){
+
+        Toast.makeText(MainActivity.this, "Branch 01", Toast.LENGTH_SHORT).show();
+    }
 }
