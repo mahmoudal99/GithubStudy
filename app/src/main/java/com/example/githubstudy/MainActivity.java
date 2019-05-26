@@ -15,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
     public void newFunction(){
 
         Toast.makeText(MainActivity.this, "Branch 01", Toast.LENGTH_SHORT).show();
+        String message = "Hello World";
     }
 }
